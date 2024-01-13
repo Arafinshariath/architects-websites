@@ -82,3 +82,38 @@ line-height: 26px; /* 162.5% */
     
     
 }
+
+main{
+    max-width: 1440px;
+    margin: 0px;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    font-size: 45px;
+}
+.teams-title .Quick-list{
+    color: var(--Dark-03, #727272);
+    font-weight: 500;
+
+}
+.teams-title .our{
+    color: #131313;
+    font-weight: 700;
+}
+.teams-title .feature{
+    color: #FF900E;
+    font-weight: 700;
+}
